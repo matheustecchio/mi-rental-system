@@ -11,8 +11,8 @@ public class Calculator {
 		public void calculate() {
 	
 		base = Double.parseDouble(JOptionPane.showInputDialog("Enter the base value: "));
-		height = Double.parseDouble(JOptionPane.showInputDialog("Enter the base value: "));
-		length = Double.parseDouble(JOptionPane.showInputDialog("Enter the base value: "));
+		height = Double.parseDouble(JOptionPane.showInputDialog("Enter the height value: "));
+		length = Double.parseDouble(JOptionPane.showInputDialog("Enter the length value: "));
 		
 		volume = (base * height * length);
 		
