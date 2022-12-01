@@ -8,3 +8,12 @@ You can browse through the [Lessons](./Lessons) and discover the test codes on e
 #### 2. Encapsulation and Access Modifiers
 #### 3. Inheritance
 #### 4. Constructors and Inheritance 
+
+
+
+
+## License
+
+Licensed under the  [MIT License](./LICENSE).
+
+Copyright © 2022 [Matheus Tecchio](https://github.com/matheustecchio).
