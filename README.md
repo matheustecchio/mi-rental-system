@@ -10,11 +10,17 @@ The following requirements must be met:
 * Install `Java/JavaSE-1.7`.
 * Install `Java IDE`
 
+
+
+
+
+
+
 ## 📖 Lessons
-#### 1. Attributes and Methods
-#### 2. Encapsulation and Access Modifiers
-#### 3. Inheritance
-#### 4. Constructors and Inheritance 
+#### 1. [Attributes and Methods](./Lessons/1._ttributes_ans_methods)
+#### 2. [Encapsulation and Access Modifiers]
+#### 3. [Inheritance]
+#### 4. [Constructors and Inheritance]
 
 
 
