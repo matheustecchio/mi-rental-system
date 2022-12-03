@@ -8,7 +8,8 @@ This repository is about my learning about object-oriented programming based in 
 The following requirements must be met:
 
 * Install `Java/JavaSE-1.7`.
-* Install `Java IDE`
+Install `Java/JavaSE-17`.
+* Install `Java IDE`.
 
 
 
