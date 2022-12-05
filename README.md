@@ -1,7 +1,7 @@
 # Learning Object-Oriented Programming
 This repository is about my learning about object-oriented programming based in Java.
 
-> You can browse through the [Lessons](./Lessons) and discover the test codes on each of the fundamental OOP topics.
+> You can browse through the [Lessons Folder](./Lessons) and discover the test codes on each of the fundamental OOP topics.
 
 ## 💻 Requirements
 
