@@ -17,19 +17,19 @@ The following requirements must be met:
 
 
 ## 📖 Lessons
-#### 01. [Attributes and Methods]
-#### 02. [Contionals]
-#### 03. [For and While]
-#### 04. [Encapsulation and Access Modifiers]
-#### 05. [Inheritance]
-#### 06. [Constructors and Inheritance]
-#### 07. [Overriding]
-#### 08. [Interfaces and Three Conditionals]
-#### 09. [Switch Case]
-#### 10. [Polymorphism]
-#### 11. [Method Overloading]
-#### 12. [Final Methods]
-#### 13. [Nested Classes]
+#### 01. Attributes and Methods
+#### 02. Contionals
+#### 03. For and While
+#### 04. Encapsulation and Access Modifiers
+#### 05. Inheritance
+#### 06. Constructors and Inheritance
+#### 07. Overriding
+#### 08. Interfaces and Three Conditionals
+#### 09. Switch Case
+#### 10. Polymorphism
+#### 11. Method Overloading
+#### 12. Final Methods
+#### 13. Nested Classes
 
 
 
