@@ -35,7 +35,7 @@ The following requirements must be met:
 
 
 
-## 🪪 Developer
+## 📛 Developer
 
 <table>
   <tr>
