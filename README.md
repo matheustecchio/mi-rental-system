@@ -31,7 +31,9 @@ The following requirements must be met:
 #### 12. Final Methods
 #### 13. Nested Classes
 
-
+## 📐 Projects
+#### 01. Calculator
+#### 02. Store
 
 
 
