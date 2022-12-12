@@ -18,6 +18,8 @@ The following requirements must be met:
 
 ## 📖 Lessons
 #### 01. Attributes and Methods
+* [Code files](./Lessons/01-Attributes-and-Methods/src/calc/)
+* [Screenshots](./Lessons/01-Attributes-and-Methods/Screenshots/)
 #### 02. Contionals
 #### 03. For and While
 #### 04. Encapsulation and Access Modifiers
