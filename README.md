@@ -17,25 +17,45 @@ The following requirements must be met:
 
 
 ## 📖 Lessons
-#### 01. Attributes and Methods
+### 01. Attributes and Methods
 * [Code files](./Lessons/01-Attributes-and-Methods/src/calc/)
 * [Screenshots](./Lessons/01-Attributes-and-Methods/Screenshots/)
-#### 02. Contionals
-* [Code files](./Lessons/02-Conditionals/src/calc/)
+### 02. Contionals
+* [Code files](./Lessons/02-Conditionals/src/situation/)
 * [Screenshots](./Lessons/02-Conditionals/Screenshots/)
-#### 03. For and While
-* [Code files](./Lessons//src/calc/)
-* [Screenshots](./Lessons//Screenshots/)
-#### 04. Encapsulation and Access Modifiers
-#### 05. Inheritance
-#### 06. Constructors and Inheritance
-#### 07. Overriding
-#### 08. Interfaces and Three Conditionals
-#### 09. Switch Case
-#### 10. Polymorphism
-#### 11. Method Overloading
-#### 12. Final Methods
-#### 13. Nested Classes
+### 03. For and While
+* [Code files](./Lessons/03-For-and-While/src/)
+* [Screenshots](./Lessons/03-For-and-While/Screenshots/)
+### 04. Encapsulation and Access Modifiers
+* [Code files](./Lessons/04-Encapsulation-and-Access-Modifiers/src/calc/)
+* [Screenshots](./Lessons/04-Encapsulation-and-Access-Modifiers/Screenshots/)
+### 05. Inheritance
+* [Code files](./Lessons/05-Inheritance/src/registration/)
+* [Screenshots](./Lessons/05-Inheritance/Screenshots/)
+### 06. Constructors and Inheritance
+* [Code files](./Lessons/06-Constructors-and-Inheritance/src/association/)
+* [Screenshots](./Lessons/06-Constructors-and-Inheritance/Screenshots/)
+### 07. Overriding
+* [Code files](./Lessons/07-Overriding/src/calculator/)
+* [Screenshots](./Lessons/07-Overriding/Screenshots/)
+### 08. Interfaces and Three Conditionals
+* [Code files](./Lessons/08-Interfaces-and-Three-Conditionals/src/Calculator/)
+* [Screenshots](./Lessons/08-Interfaces-and-Three-Conditionals/Screenshots/)
+### 09. Switch Case
+* [Code files](./Lessons/09-Switch-Case/src/weekDay/)
+* [Screenshots](./Lessons/09-Switch-Case/Screenshots/)
+### 10. Polymorphism
+* [Code files](./Lessons/10-Polymorphism/src/polymorphism/)
+* [Screenshots](./Lessons/10-Polymorphism/Screenshots/)
+### 11. Method Overloading
+* [Code files](./Lessons/11-Method-Overloadind/src/calculator/)
+* [Screenshots](./Lessons/11-Method-Overloadind/Screenshots/)
+### 12. Final Methods
+* [Code files](./Lessons/12-Final-Methods/src/finalmethods/)
+* [Screenshots](./Lessons/12-Final-Methods/Screenshots/)
+### 13. Nested Classes
+* [Code files](./Lessons/13-Nested-Classes/src/calculator/)
+* [Screenshots](./Lessons/13-Nested-Classes/Screenshots/)
 
 ## 📐 Projects
 #### 01. Calculator
