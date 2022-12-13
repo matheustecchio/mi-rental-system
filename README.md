@@ -21,7 +21,11 @@ The following requirements must be met:
 * [Code files](./Lessons/01-Attributes-and-Methods/src/calc/)
 * [Screenshots](./Lessons/01-Attributes-and-Methods/Screenshots/)
 #### 02. Contionals
+* [Code files](./Lessons/02-Conditionals/src/calc/)
+* [Screenshots](./Lessons/02-Conditionals/Screenshots/)
 #### 03. For and While
+* [Code files](./Lessons//src/calc/)
+* [Screenshots](./Lessons//Screenshots/)
 #### 04. Encapsulation and Access Modifiers
 #### 05. Inheritance
 #### 06. Constructors and Inheritance
