@@ -56,10 +56,11 @@ The following requirements must be met:
 
 ## 📐 Projects
 #### 01. Calculator
-Create a calculator with an interface that performs the 4 main mathematical operations, add, subtract, multiply and divide.
+> Create a calculator with an interface that performs the 4 main mathematical operations, add, subtract, multiply and divide.
 * [Code files](./Calculator-Project/src/calculator/)
 * [Screenshots](./Calculator-Project/Screenshots/)
 #### 02. Store
+> The objective of this project is to create a small system of a shop, with a manager, an attendant, a client, products and prices. In this ecosystem, we can register people, consult the balance in the bank, change the function and salary of the attendant, pay the employees, discount a specific amount from the attendants, consult the cash of the shop, see the client's money, withdraw money, see the products of the shop, consult the prices of products and buy products.
 * [Code files](./Store-Project/src/store/)
 * [Screenshots](./Store-Project/Screenshots/)
 
