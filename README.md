@@ -31,13 +31,10 @@ The following requirements must be met:
 * [Screenshots](./Lessons/04-Encapsulation-and-Access-Modifiers/Screenshots/)
 ### 05. Inheritance
 * [Code files](./Lessons/05-Inheritance/src/registration/)
-* [Screenshots](./Lessons/05-Inheritance/Screenshots/)
 ### 06. Constructors and Inheritance
 * [Code files](./Lessons/06-Constructors-and-Inheritance/src/association/)
-* [Screenshots](./Lessons/06-Constructors-and-Inheritance/Screenshots/)
 ### 07. Overriding
 * [Code files](./Lessons/07-Overriding/src/calculator/)
-* [Screenshots](./Lessons/07-Overriding/Screenshots/)
 ### 08. Interfaces and Three Conditionals
 * [Code files](./Lessons/08-Interfaces-and-Three-Conditionals/src/Calculator/)
 * [Screenshots](./Lessons/08-Interfaces-and-Three-Conditionals/Screenshots/)
