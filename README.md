@@ -56,7 +56,12 @@ The following requirements must be met:
 
 ## 📐 Projects
 #### 01. Calculator
+Create a calculator with an interface that performs the 4 main mathematical operations, add, subtract, multiply and divide.
+* [Code files](./learning-object-oriented-programming/Calculator-Project/src/calculator/)
+* [Screenshots](./learning-object-oriented-programming/Calculator-Project/Screenshots/)
 #### 02. Store
+* [Code files](./learning-object-oriented-programming/Store-Project/src/store/)
+* [Screenshots](./learning-object-oriented-programming/Store-Project/Screenshots/)
 
 
 
