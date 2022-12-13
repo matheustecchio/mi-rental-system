@@ -1,4 +1,4 @@
-package Calculator;
+package calculator;
 
 import javax.swing.JOptionPane;
 
