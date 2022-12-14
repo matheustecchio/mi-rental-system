@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/matheus-tecchio/eclipse/Calculadora/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1517474881.index
+831229709.index
+3893379105.index
