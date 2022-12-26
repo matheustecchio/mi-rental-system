@@ -1,20 +1,13 @@
 # Learning Object-Oriented Programming
 This repository is about my learning about object-oriented programming based in Java.
 
-> You can browse through the [Lessons Folder](./Lessons) and discover the test codes on each of the fundamental OOP topics.
-
 ## 💻 Requirements
-
 The following requirements must be met:
-
 * Install `Java IDE` for better visualization.
 * Run with Build Patch `Java/JavaSE-1.7`.
 
-
-
-
-
-
+## 🖱 How to use
+You can browse through the [Lessons Folder](./Lessons) and discover the test codes on each of the fundamental OOP topics.
 
 ## 📖 Lessons
 ### 01. Attributes and Methods
@@ -82,7 +75,7 @@ The objective of this project is to create a small system of a shop, with a mana
   
 ## 📝 License
 
-Licensed under the  [MIT License](./LICENSE).
+Licensed under the [MIT License](./LICENSE).
 
 Copyright © 2022 [Matheus Tecchio](https://github.com/matheustecchio).
 
