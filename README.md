@@ -3,7 +3,7 @@ This repository is about my learning about object-oriented programming based in 
 
 ## 💻 Requirements
 The following requirements must be met:
-* Install `Java IDE` for better visualization.
+* Install a Java IDE for better visualization.
 * Run with Build Patch `Java/JavaSE-1.7`.
 
 ## 🖱 How to use
