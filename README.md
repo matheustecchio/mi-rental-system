@@ -6,6 +6,14 @@ The following requirements must be met:
 * Install a Java IDE for better visualization.
 * Run with Build Patch `Java/JavaSE-1.7`.
 
+## 💾 Installation
+
+To install, please follow these instructions:
+
+```
+$ git clone https://github.com/matheustecchio/learning-object-oriented-programming.git
+```
+
 ## 🖱 How to use
 You can browse through the [Lessons Folder](./Lessons) and discover the test codes on each of the fundamental OOP topics.
 
