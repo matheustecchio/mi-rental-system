@@ -7,6 +7,12 @@ public class Car extends Vehicle {
     private byte carStyle;
     private byte carType;
 
+    Car(String name, String driverLicense) {
+        this.name = name;
+        this.driverLicense = driverLicense;
+
+    }
+
     public void carInfo() {
 
         System.out.print("\nWhat is your preferred Engine Size?\nChoose between 1.1 to 1.6: ");
@@ -66,13 +72,13 @@ public class Car extends Vehicle {
     }
 
     public void carDisplay() {
-        System.out.printf("\nEngine Size:\t\t%f",this.engineSize);
+        System.out.printf("\nEngine Size:\t\t%.1f",this.engineSize);
 
         switch (carStyle) {
             case 1:
-                System.out.printf("\nBoot:\t\tHatchback");break;
+                System.out.printf("\nBoot:\t\t\tHatchback");break;
             case 2:
-                System.out.printf("\nBoot:\t\tSaloon");break;
+                System.out.printf("\nBoot:\t\t\tSaloon");break;
         }
 
         switch (carType) {

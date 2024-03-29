@@ -35,6 +35,9 @@ public class Vehicle {
 
         System.out.print("\nWhat type of vehicle do you want to rent?\n1. Car\n2. Bus\nChoose: ");
         vehicleType = sc.nextByte();
+    }
+
+    public void standardHeader() {
 
         System.out.print("\nDo you have an insurance for this type of vehicle?\n1. Yes\n2. No\nChoose: ");
         insuranceNeed = sc.nextByte();
@@ -91,17 +94,125 @@ public class Vehicle {
     public void footerDisplay() {
 
         System.out.printf("\n\nCost Breakdown:");
-        System.out.printf("\n%s @ %f per day = %f", this.rentDays, this.costOfRentalDaily, this.totalCostOfRental);
-        System.out.printf("\nDiscount:\t\t%f",this.discountValue);
+        System.out.printf("\n%s days @ €%,.2f/day =\t€%,.2f", this.rentDays, this.costOfRentalDaily, this.totalCostOfRental);
+        System.out.printf("\nDiscount:\t\t€%,.2f",this.discountValue);
         switch (insuranceNeed) {
             case 1:
                 System.out.printf("\nInsurance:\t\tCustomer has their own insurance");break;
             case 2:
-                System.out.printf("\nInsurance:\t\t%f",this.insurance);break;
+                System.out.printf("\nInsurance:\t\t€%,.2f",this.insurance);break;
         }
-        System.out.printf("\nTotal Cost:\t\t%f",this.totalCost);
+        System.out.printf("\nTotal Cost:\t\t€%,.2f\n",this.totalCost);
 
             
     }
+    // Getters and Setters
+    public float getCostOfRentalDaily() {
+        return costOfRentalDaily;
+    }
+
+    public void setCostOfRentalDaily(float costOfRentalDaily) {
+        this.costOfRentalDaily = costOfRentalDaily;
+    }
+
+    public float getTotalCostOfRental() {
+        return totalCostOfRental;
+    }
+
+    public void setTotalCostOfRental(float totalCostOfRental) {
+        this.totalCostOfRental = totalCostOfRental;
+    }
+
+    public float getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(float discount) {
+        this.discount = discount;
+    }
+
+    public float getDiscountValue() {
+        return discountValue;
+    }
+
+    public void setDiscountValue(float discountValue) {
+        this.discountValue = discountValue;
+    }
+
+    public float getInsurance() {
+        return insurance;
+    }
+
+    public void setInsurance(float insurance) {
+        this.insurance = insurance;
+    }
+
+    public float getTotalCost() {
+        return totalCost;
+    }
+
+    public void setTotalCost(float totalCost) {
+        this.totalCost = totalCost;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDriverLicense() {
+        return driverLicense;
+    }
+
+    public void setDriverLicense(String driverLicense) {
+        this.driverLicense = driverLicense;
+    }
+
+    public byte getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(byte vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+
+    public byte getRentDays() {
+        return rentDays;
+    }
+
+    public void setRentDays(byte rentDays) {
+        this.rentDays = rentDays;
+    }
+
+    public byte getFuelType() {
+        return fuelType;
+    }
+
+    public void setFuelType(byte fuelType) {
+        this.fuelType = fuelType;
+    }
+
+    public byte getTransmissionType() {
+        return transmissionType;
+    }
+
+    public void setTransmissionType(byte transmissionType) {
+        this.transmissionType = transmissionType;
+    }
+
+    public byte getInsuranceNeed() {
+        return insuranceNeed;
+    }
+
+    public void setInsuranceNeed(byte insuranceNeed) {
+        this.insuranceNeed = insuranceNeed;
+    }
+
+    
+
+    
     
 }

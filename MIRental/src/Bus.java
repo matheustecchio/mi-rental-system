@@ -7,19 +7,25 @@ public class Bus extends Vehicle {
 
     Scanner sc = new Scanner (System.in);
 
+
+    Bus(String name, String driverLicense) {
+        this.name = name;
+        this.driverLicense = driverLicense;
+
+    }
     public void busInfo() {
 
         System.out.print("\nHow many people do you want to carry: ");
         this.carriedQuantity = sc.nextByte();
 
         if (carriedQuantity <= 16) {
-            System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury mini coach\n 2. Minibus\nChoose: ");
+            System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury mini coach\n2. Minibus\nChoose: ");
             busType = sc.nextByte();
 
         }
 
         else if (carriedQuantity <= 48) {
-            System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury coach\n 2. Standard bus\nChoose: ");
+            System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury coach\n2. Standard bus\nChoose: ");
             busType = sc.nextByte();
             busType += 2;
 
@@ -70,17 +76,17 @@ public class Bus extends Vehicle {
     }
 
     public void busDisplay() {
-        System.out.printf("\nNumber of passengers:\t\t%f",this.carriedQuantity);
+        System.out.printf("\nNumber of passengers:\t%s",this.carriedQuantity);
 
         switch (busType) {
             case 1:
-                System.out.printf("\nBoot:\t\tLuxury mini coach");break;
+                System.out.printf("\nBoot:\t\t\tLuxury mini coach");break;
             case 2:
-                System.out.printf("\nBoot:\t\tMinibus");break;
+                System.out.printf("\nBoot:\t\t\tMinibus");break;
             case 3:
-                System.out.printf("\nBoot:\t\tLuxury coach");break;
+                System.out.printf("\nBoot:\t\t\tLuxury coach");break;
             case 4:
-                System.out.printf("\nBoot:\t\tStandard bus");break;
+                System.out.printf("\nBoot:\t\t\tStandard bus");break;
         }
 
     }
