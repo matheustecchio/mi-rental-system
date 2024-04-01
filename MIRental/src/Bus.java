@@ -14,30 +14,34 @@ public class Bus extends Vehicle {
 
     }
     public void busInfo() {
+        do {
+            System.out.print("\nHow many people do you want to carry, between 1 to 48: ");
+            this.carriedQuantity = sc.nextByte();
+            if (this.carriedQuantity < 1 || this.carriedQuantity > 48) {
+                System.err.print("\nSorry, we can't provide buses to carry more than 48 people\n");
+            }
+        } while (this.carriedQuantity < 1 || this.carriedQuantity > 48);
 
-        System.out.print("\nHow many people do you want to carry: ");
-        this.carriedQuantity = sc.nextByte();
-
-        if (carriedQuantity <= 16) {
-            System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury mini coach\n2. Minibus\nChoose: ");
-            busType = sc.nextByte();
-
+        if (this.carriedQuantity <= 16) {
+            do {
+                System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury mini coach\n2. Minibus\nChoose: ");
+                this.busType = sc.nextByte();
+            } while (this.busType != 1 && this.busType != 2);
         }
 
-        else if (carriedQuantity <= 48) {
-            System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury coach\n2. Standard bus\nChoose: ");
-            busType = sc.nextByte();
-            busType += 2;
-
-        } else {
-            System.out.print("\nSorry, we can't provide bus to carry over 48 people!");
+        else if (this.carriedQuantity <= 48) {
+            do {
+                System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury coach\n2. Standard bus\nChoose: ");
+                this.busType = sc.nextByte();
+            } while (this.busType != 1 && this.busType != 2);
+            this.busType += 2;
         }
 
     }
 
     public void calculateCharges() {
         // Bus Type rules
-        switch(busType) {
+        switch(this.busType) {
             case 1:
                 this.costOfRentalDaily = 583.99f;
                 break;
@@ -72,13 +76,13 @@ public class Bus extends Vehicle {
         }
 
         // Total Cost rule
-        this.totalCost = totalCostOfRental - discountValue + insurance;
+        this.totalCost = this.totalCostOfRental - discountValue + insurance;
     }
 
     public void busDisplay() {
         System.out.printf("\nNumber of passengers:\t%s",this.carriedQuantity);
 
-        switch (busType) {
+        switch (this.busType) {
             case 1:
                 System.out.printf("\nBoot:\t\t\tLuxury mini coach");break;
             case 2:

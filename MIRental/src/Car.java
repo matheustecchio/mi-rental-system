@@ -10,20 +10,28 @@ public class Car extends Vehicle {
     Car(String name, String driverLicense) {
         this.name = name;
         this.driverLicense = driverLicense;
-
     }
 
     public void carInfo() {
 
-        System.out.print("\nWhat is your preferred Engine Size?\nChoose between 1.1 to 1.6: ");
-        this.engineSize = sc.nextFloat();
+        do {
+            System.out.print("\nWhat is your preferred Engine Size?\nChoose between 1.1 to 1.6: ");
+            this.engineSize = sc.nextFloat();
+            if (this.engineSize < 1.1 || this.engineSize > 1.6) {
+                System.err.print("\nPlease, choose between 1.1 to 1.6.\n");
+            }
+        } while (this.engineSize < 1.1 || this.engineSize > 1.6);
 
-        System.out.print("\nWould you like to rent a \n1. Hatchback\n2. Saloon\nChoose: ");
-        this.carStyle = sc.nextByte();
+        do {
+            System.out.print("\nWould you like to rent a \n1. Hatchback\n2. Saloon\nChoose: ");
+            this.carStyle = sc.nextByte();
+        } while (this.carStyle != 1 && this.carStyle != 2);
 
-        System.out.print("\nWould you like to rent a \n1. Family car\n2. People carrier\nChoose: ");
-        this.carType = sc.nextByte();
-        
+        do {
+            System.out.print("\nWould you like to rent a \n1. Family car\n2. People carrier\nChoose: ");
+            this.carType = sc.nextByte();
+        } while (this.carType != 1 && this.carType != 2);
+
     }
 
     public void calculateCharges() {
