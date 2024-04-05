@@ -116,108 +116,18 @@ public class Vehicle {
             
     }
     // Getters and Setters
-    public float getCostOfRentalDaily() {
-        return costOfRentalDaily;
-    }
-
-    public void setCostOfRentalDaily(float costOfRentalDaily) {
-        this.costOfRentalDaily = costOfRentalDaily;
-    }
-
-    public float getTotalCostOfRental() {
-        return totalCostOfRental;
-    }
-
-    public void setTotalCostOfRental(float totalCostOfRental) {
-        this.totalCostOfRental = totalCostOfRental;
-    }
-
-    public float getDiscount() {
-        return discount;
-    }
-
-    public void setDiscount(float discount) {
-        this.discount = discount;
-    }
-
-    public float getDiscountValue() {
-        return discountValue;
-    }
-
-    public void setDiscountValue(float discountValue) {
-        this.discountValue = discountValue;
-    }
-
-    public float getInsurance() {
-        return insurance;
-    }
-
-    public void setInsurance(float insurance) {
-        this.insurance = insurance;
-    }
-
-    public float getTotalCost() {
-        return totalCost;
-    }
-
-    public void setTotalCost(float totalCost) {
-        this.totalCost = totalCost;
-    }
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getDriverLicense() {
         return driverLicense;
     }
 
-    public void setDriverLicense(String driverLicense) {
-        this.driverLicense = driverLicense;
-    }
-
     public byte getVehicleType() {
         return vehicleType;
     }
-
-    public void setVehicleType(byte vehicleType) {
-        this.vehicleType = vehicleType;
-    }
-
-    public byte getRentDays() {
-        return rentDays;
-    }
-
-    public void setRentDays(byte rentDays) {
-        this.rentDays = rentDays;
-    }
-
-    public byte getFuelType() {
-        return fuelType;
-    }
-
-    public void setFuelType(byte fuelType) {
-        this.fuelType = fuelType;
-    }
-
-    public byte getTransmissionType() {
-        return transmissionType;
-    }
-
-    public void setTransmissionType(byte transmissionType) {
-        this.transmissionType = transmissionType;
-    }
-
-    public byte getInsuranceNeed() {
-        return insuranceNeed;
-    }
-
-    public void setInsuranceNeed(byte insuranceNeed) {
-        this.insuranceNeed = insuranceNeed;
-    }
+    
        
 }
