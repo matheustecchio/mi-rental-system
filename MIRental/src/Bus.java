@@ -13,6 +13,8 @@ public class Bus extends Vehicle {
         this.driverLicense = driverLicense;
 
     }
+
+    // Method to get bus-specific information
     public void busInfo() {
         do {
             System.out.print("\nHow many people do you want to carry, between 1 to 48: ");
@@ -39,6 +41,7 @@ public class Bus extends Vehicle {
 
     }
 
+    // Method to calculate charges based on user's input
     public void calculateCharges() {
         // Bus Type rules
         switch(this.busType) {
@@ -79,6 +82,7 @@ public class Bus extends Vehicle {
         this.totalCost = this.totalCostOfRental - discountValue + insurance;
     }
 
+    // Method to display bus-specific details
     public void busDisplay() {
         System.out.printf("\nNumber of passengers:\t%s",this.carriedQuantity);
 
