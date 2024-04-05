@@ -27,10 +27,11 @@ public class Vehicle {
         do {
             System.out.print("\nEnter with your Driver's License number: ");
             this.driverLicense = sc.nextLine();
-            if (this.driverLicense.equals("")){
-                System.err.print("\nSorry, you must have a Drive License to proceed!\n");
+            if (!this.driverLicense.matches("\\d{5}[a-zA-Z]{4}")) {
+                System.err.print("\nSorry, the Driver's License is not valid. It should be 5 digits followed by 4 letters.\n");
             }
-        } while (this.driverLicense.equals(""));
+        } while (!this.driverLicense.matches("\\d{5}[a-zA-Z]{4}"));
+        
         
         do {
             System.out.print("\nWhat type of vehicle do you want to rent?\n1. Car\n2. Bus\nChoose: ");
