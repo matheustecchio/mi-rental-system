@@ -18,12 +18,13 @@ public class Vehicle {
     byte transmissionType;
     byte insuranceNeed;
 
+    // Method to get standard information from the user
     public void standardInfo() {
-
         System.out.print("\nHi there, welcome to Morrison's Island Car and Bus Rental!\n");
         System.out.print("\nEnter with your name: ");
         this.name = sc.nextLine();
 
+        // Get and validate driver's license
         do {
             System.out.print("\nEnter with your Driver's License number: ");
             this.driverLicense = sc.nextLine();
@@ -32,7 +33,6 @@ public class Vehicle {
             }
         } while (!this.driverLicense.matches("\\d{5}[a-zA-Z]{4}"));
         
-        
         do {
             System.out.print("\nWhat type of vehicle do you want to rent?\n1. Car\n2. Bus\nChoose: ");
             this.vehicleType = sc.nextByte();
@@ -40,8 +40,8 @@ public class Vehicle {
         
     }
 
-    public void standardHeader() {
-
+    // Method to get additional information from the user
+    public void additionalInfo() {
         do {
             System.out.print("\nDo you have an insurance for this type of vehicle?\n1. Yes\n2. No\nChoose: ");
             this.insuranceNeed = sc.nextByte();
@@ -71,6 +71,7 @@ public class Vehicle {
     
     }
 
+    // Method to display header information
     public void HeaderDisplay() {
         System.out.print("\n\n\nMorrison's Island Car and Bus Rental\n14 Morrison's Island\nCork\n✉ morrisonsrental@cork.ie\n☎ (021) 123456");
         System.out.print("\n\nPlease present this docket (on a device or printed) when you arrive at Morrison's Island Car and Bus rental desk.");
@@ -99,8 +100,8 @@ public class Vehicle {
         }
     }
 
-    public void footerDisplay() {
-
+    // Method to display cost information
+    public void costDisplay() {
         System.out.printf("\n\nCost Breakdown:");
         System.out.printf("\n%s days @ €%,.2f/day =\t€%,.2f", this.rentDays, this.costOfRentalDaily, this.totalCostOfRental);
         System.out.printf("\nDiscount:\t\t€%,.2f",this.discountValue);
@@ -115,108 +116,18 @@ public class Vehicle {
             
     }
     // Getters and Setters
-    public float getCostOfRentalDaily() {
-        return costOfRentalDaily;
-    }
-
-    public void setCostOfRentalDaily(float costOfRentalDaily) {
-        this.costOfRentalDaily = costOfRentalDaily;
-    }
-
-    public float getTotalCostOfRental() {
-        return totalCostOfRental;
-    }
-
-    public void setTotalCostOfRental(float totalCostOfRental) {
-        this.totalCostOfRental = totalCostOfRental;
-    }
-
-    public float getDiscount() {
-        return discount;
-    }
-
-    public void setDiscount(float discount) {
-        this.discount = discount;
-    }
-
-    public float getDiscountValue() {
-        return discountValue;
-    }
-
-    public void setDiscountValue(float discountValue) {
-        this.discountValue = discountValue;
-    }
-
-    public float getInsurance() {
-        return insurance;
-    }
-
-    public void setInsurance(float insurance) {
-        this.insurance = insurance;
-    }
-
-    public float getTotalCost() {
-        return totalCost;
-    }
-
-    public void setTotalCost(float totalCost) {
-        this.totalCost = totalCost;
-    }
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getDriverLicense() {
         return driverLicense;
     }
 
-    public void setDriverLicense(String driverLicense) {
-        this.driverLicense = driverLicense;
-    }
-
     public byte getVehicleType() {
         return vehicleType;
     }
-
-    public void setVehicleType(byte vehicleType) {
-        this.vehicleType = vehicleType;
-    }
-
-    public byte getRentDays() {
-        return rentDays;
-    }
-
-    public void setRentDays(byte rentDays) {
-        this.rentDays = rentDays;
-    }
-
-    public byte getFuelType() {
-        return fuelType;
-    }
-
-    public void setFuelType(byte fuelType) {
-        this.fuelType = fuelType;
-    }
-
-    public byte getTransmissionType() {
-        return transmissionType;
-    }
-
-    public void setTransmissionType(byte transmissionType) {
-        this.transmissionType = transmissionType;
-    }
-
-    public byte getInsuranceNeed() {
-        return insuranceNeed;
-    }
-
-    public void setInsuranceNeed(byte insuranceNeed) {
-        this.insuranceNeed = insuranceNeed;
-    }
+    
        
 }

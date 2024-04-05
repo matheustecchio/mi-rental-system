@@ -11,9 +11,9 @@ public class Car extends Vehicle {
         this.name = name;
         this.driverLicense = driverLicense;
     }
-
+    
+    // Method to get car-specific information
     public void carInfo() {
-
         do {
             System.out.print("\nWhat is your preferred Engine Size?\nChoose between 1.1 to 1.6: ");
             this.engineSize = sc.nextFloat();
@@ -34,6 +34,7 @@ public class Car extends Vehicle {
 
     }
 
+    // Method to calculate charges based on user's input
     public void calculateCharges() {
         // Engine Size rules
         if (engineSize >= 1.4) {
@@ -74,6 +75,7 @@ public class Car extends Vehicle {
 
     }
 
+    // Method to display car-specific details
     public void carDisplay() {
         System.out.printf("\nEngine Size:\t\t%.1f",this.engineSize);
 

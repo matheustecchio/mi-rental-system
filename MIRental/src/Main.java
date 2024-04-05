@@ -10,22 +10,22 @@ public class Main {
         switch(vehicle.getVehicleType()) {
             case 1:
                 Car car = new Car(vehicle.getName(),vehicle.getDriverLicense());
-                car.standardHeader(); // Vehicle Class
+                car.additionalInfo(); // Vehicle Class
                 car.carInfo(); // Car Class
                 car.calculateCharges(); // Car Class
-                car.HeaderDisplay();
-                car.carDisplay();
-                car.footerDisplay();
+                car.HeaderDisplay(); //Vehicle class
+                car.carDisplay(); // Car class
+                car.costDisplay(); //Vehicle class
                 break;
             
                 case 2:
                 Bus bus = new Bus(vehicle.getName(),vehicle.getDriverLicense());
-                bus.standardHeader(); // Vehicle Class
+                bus.additionalInfo(); // Vehicle Class
                 bus.busInfo(); // Bus Class
                 bus.calculateCharges(); // Bus Class
-                bus.HeaderDisplay();
-                bus.busDisplay();
-                bus.footerDisplay();
+                bus.HeaderDisplay(); //Vehicle class
+                bus.busDisplay(); // Bus class
+                bus.costDisplay(); //Vehicle class
                 break;
 
         }
