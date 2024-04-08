@@ -33,7 +33,7 @@ public class Bus extends Vehicle {
 
         else if (this.carriedQuantity <= 48) {
             do {
-                System.out.print("\nYour ideal bus type is a minibus.\nWould you like to upgrade to a luxury mini coach or stay with the standard?\n1. Luxury coach\n2. Standard bus\nChoose: ");
+                System.out.print("\nYour ideal bus type is a bus.\nWould you like to upgrade to a luxury coach or stay with the standard?\n1. Luxury coach\n2. Standard bus\nChoose: ");
                 this.busType = sc.nextByte();
             } while (this.busType != 1 && this.busType != 2);
             this.busType += 2;
