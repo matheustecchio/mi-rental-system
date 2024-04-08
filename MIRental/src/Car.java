@@ -23,12 +23,12 @@ public class Car extends Vehicle {
         } while (this.engineSize <= 1.0 || this.engineSize >= 1.7);
 
         do {
-            System.out.print("\nWould you like to rent a \n1. Hatchback\n2. Saloon\nChoose: ");
+            System.out.print("\nWould you like to rent a\n1. Hatchback\n2. Saloon\nChoose: ");
             this.carStyle = sc.nextByte();
         } while (this.carStyle != 1 && this.carStyle != 2);
 
         do {
-            System.out.print("\nWould you like to rent a \n1. Family car\n2. People carrier\nChoose: ");
+            System.out.print("\nWould you like to rent a\n1. Family car\n2. People carrier\nChoose: ");
             this.carType = sc.nextByte();
         } while (this.carType != 1 && this.carType != 2);
 
