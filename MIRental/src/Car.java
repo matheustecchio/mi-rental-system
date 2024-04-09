@@ -56,10 +56,10 @@ public class Car extends Vehicle {
 
         // Insurance rule
         if (this.insuranceNeed == 2) {
-            this.insurance = 15.72f;
+            this.insuranceValue = 15.72f;
         }
         else {
-            this.insurance = 0;
+            this.insuranceValue = 0;
         }
 
         // Discount rule
@@ -71,7 +71,7 @@ public class Car extends Vehicle {
         }
 
         // Total Cost rule
-        this.totalCost = totalCostOfRental - discountValue + insurance;
+        this.totalCost = totalCostOfRental - discountValue + insuranceValue;
 
     }
 

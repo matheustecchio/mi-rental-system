@@ -64,10 +64,10 @@ public class Bus extends Vehicle {
         
         // Insurance rule
         if (this.insuranceNeed == 2) {
-            this.insurance = 99.99f;
+            this.insuranceValue = 99.99f;
         }
         else {
-            this.insurance = 0;
+            this.insuranceValue = 0;
         }
         
         // Discount rule
@@ -79,7 +79,7 @@ public class Bus extends Vehicle {
         }
 
         // Total Cost rule
-        this.totalCost = this.totalCostOfRental - discountValue + insurance;
+        this.totalCost = this.totalCostOfRental - discountValue + insuranceValue;
     }
 
     // Method to display bus-specific details
