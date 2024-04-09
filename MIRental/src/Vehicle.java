@@ -8,7 +8,7 @@ public class Vehicle {
     float totalCostOfRental;
     float discount;
     float discountValue;
-    float insurance;
+    float insuranceValue;
     float totalCost;
     String name;
     String driverLicense;
@@ -93,10 +93,10 @@ public class Vehicle {
                 System.out.printf("\nFuel type:\t\tHybrid");break;
         }
         switch (this.transmissionType) {
-            case 2:
-                System.out.printf("\nTransmission:\t\tAutomatic");break;
             case 1:
                 System.out.printf("\nTransmission:\t\tManual");break;
+            case 2:
+                System.out.printf("\nTransmission:\t\tAutomatic");break;
         }
     }
 
@@ -109,7 +109,7 @@ public class Vehicle {
             case 1:
                 System.out.printf("\nInsurance:\t\tCustomer has their own insurance");break;
             case 2:
-                System.out.printf("\nInsurance:\t\t€%,.2f",this.insurance);break;
+                System.out.printf("\nInsurance:\t\t€%,.2f",this.insuranceValue);break;
         }
         System.out.printf("\nTotal Cost:\t\t€%,.2f\n",this.totalCost);
 
