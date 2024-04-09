@@ -13,7 +13,7 @@ public class Main {
                 car.additionalInfo(); // Vehicle Class
                 car.carInfo(); // Car Class
                 car.calculateCharges(); // Car Class
-                car.HeaderDisplay(); //Vehicle class
+                car.headerDisplay(); //Vehicle class
                 car.carDisplay(); // Car class
                 car.costDisplay(); //Vehicle class
                 break;
@@ -23,7 +23,7 @@ public class Main {
                 bus.additionalInfo(); // Vehicle Class
                 bus.busInfo(); // Bus Class
                 bus.calculateCharges(); // Bus Class
-                bus.HeaderDisplay(); //Vehicle class
+                bus.headerDisplay(); //Vehicle class
                 bus.busDisplay(); // Bus class
                 bus.costDisplay(); //Vehicle class
                 break;
