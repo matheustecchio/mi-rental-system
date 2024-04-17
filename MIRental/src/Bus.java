@@ -64,7 +64,7 @@ public class Bus extends Vehicle {
         
         // Insurance rule
         if (this.insuranceNeed == 2) {
-            this.insuranceValue = 99.99f;
+            this.insuranceValue = 99.99f * rentDays;
         }
         else {
             this.insuranceValue = 0;
