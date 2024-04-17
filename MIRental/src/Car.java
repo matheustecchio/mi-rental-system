@@ -37,11 +37,11 @@ public class Car extends Vehicle {
     // Method to calculate charges based on user's input
     public void calculateCharges() {
         // Engine Size rules
-        if (engineSize >= 1.4) {
+        if (engineSize > 1.3) {
             this.costOfRentalDaily += 45.67;
         }
-        else if (engineSize >= 1.1) {
-            this.costOfRentalDaily += 30.57;
+        else if (engineSize > 1.0) {
+            this.costOfRentalDaily += 30.56;
         }
         
         // Car Type rules
