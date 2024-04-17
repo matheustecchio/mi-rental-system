@@ -56,7 +56,7 @@ public class Car extends Vehicle {
 
         // Insurance rule
         if (this.insuranceNeed == 2) {
-            this.insuranceValue = 15.72f;
+            this.insuranceValue = 15.72f * rentDays;
         }
         else {
             this.insuranceValue = 0;
