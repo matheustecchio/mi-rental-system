@@ -4,19 +4,19 @@ public class Vehicle {
 
     Scanner sc = new Scanner (System.in);
 
-    float costOfRentalDaily;
-    float totalCostOfRental;
-    float discount;
-    float discountValue;
-    float insuranceValue;
-    float totalCost;
-    String name;
-    String driverLicense;
-    byte vehicleType;
-    byte rentDays;
-    byte fuelType;
-    byte transmissionType;
-    byte insuranceNeed;
+    protected float costOfRentalDaily;
+    protected float totalCostOfRental;
+    protected float discount;
+    protected float discountValue;
+    protected float insuranceValue;
+    protected float totalCost;
+    protected String name;
+    protected String driverLicense;
+    protected byte vehicleType;
+    protected byte rentDays;
+    protected byte fuelType;
+    protected byte transmissionType;
+    protected byte insuranceNeed;
 
     // Method to get standard information from the user
     public void standardInfo() {
@@ -103,7 +103,8 @@ public class Vehicle {
     // Method to display cost information
     public void costDisplay() {
         System.out.printf("\n\nCost Breakdown:");
-        System.out.printf("\n%s days @ €%,.2f/day =\t€%,.2f", this.rentDays, this.costOfRentalDaily, this.totalCostOfRental);
+        System.out.printf("\n%s days at €%,.2f/daily", this.rentDays, this.costOfRentalDaily);
+        System.out.printf("\nTotal Cost of Rental:\t€%,.2f", this.totalCostOfRental);
         System.out.printf("\nDiscount:\t\t€%,.2f",this.discountValue);
         switch (this.insuranceNeed) {
             case 1:
